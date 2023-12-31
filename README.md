@@ -1,5 +1,5 @@
 # Code Snippet Buffet
-<p align="center"> This repo is a collection of handy code snippets and cheatsheets I've found useful for tackling larger projects. Feel free to use them in your own work. </p>
+<p align="center"> This repo is a collection of handy code snippets and cheatsheets I've found useful for tackling larger projects. Feel free to use them too. </p>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=django,py,linux,nginx,bash,js,ts,jquery,angular,react,tailwind,md" />
