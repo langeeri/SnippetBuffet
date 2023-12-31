@@ -27,7 +27,7 @@ If you find a bug, have a question, or want to suggest improvements, please open
 
 --- 
 
-## Happy coding! 🔥 
+<h1 align="center"> Happy coding! 🔥 </h1>   
 
 
 
