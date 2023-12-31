@@ -1,5 +1,5 @@
 # Code Snippet Buffet
-This repo is a collection of code snippets I found interesting. Feel free to use them for your own projects.
+This repo is a collection of handy code snippets I've found useful for tackling larger projects. Feel free to use them in your own work.
 
 ## Structure
 The repo is organized by programming languages, with individual folders containing snippets categorized by themes, libraries, or specific use cases. The structure promotes easy navigation and allows you to quickly find relevant code examples.
