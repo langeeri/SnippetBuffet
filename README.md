@@ -26,5 +26,5 @@ Each code snippet is contained in a single file within its respective folder. To
 If you find a bug, have a question, or want to suggest improvements, please open an issue. 
 
 ----
-Happy coding! 🚀
+<h1 align="center"> Happy coding! 🚀 </h1>
 
