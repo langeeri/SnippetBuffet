@@ -1,4 +1,4 @@
-<h1 align="center"> # Code Snippet Buffet </h1>
+<h1 align="center"> Code Snippet Buffet </h1>
 <p align="center"> This repo is a collection of handy code snippets and cheatsheets I've found useful for tackling larger projects. Feel free to use them too. </p>
 <p align="center">
   <a href="https://skillicons.dev">
