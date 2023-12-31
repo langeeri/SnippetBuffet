@@ -1,0 +1,20 @@
+# Ignore compiled binaries
+*.so
+*.dll
+*.out
+
+# Ignore logs and temp files
+*.log
+*.log.*
+*.log.*
+*.swp
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+.profile
+bash_history

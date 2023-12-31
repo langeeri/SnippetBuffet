@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+
+# Tailwind CSS cache
+.cache/
+
+# Log files
+*.log
+
+# .DS_Store files on macOS
+.DS_Store
+
+# Editor specific files
+.vscode/
+.idea/
+
+# Compiled CSS (if applicable)
+*.css
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db

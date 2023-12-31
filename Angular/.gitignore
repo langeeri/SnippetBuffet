@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Compiled output
+dist/
+tmp/
+*.tmp/
+*.o/
+*.log/
+*.pid/
+*.coverage/
+.pnp/
+*.pnp.js
+coverage/
+
+# Dependency directories
+.jspm/
+bower_components/
+
+# Typescript configuration
+*.tsbuildinfo
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Project SASS cache
+.sass-cache/
+
+# npm
+*.npm
+*.lock
+node_modules/

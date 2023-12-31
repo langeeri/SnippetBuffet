@@ -1,0 +1,27 @@
+# Temporary files
+*~
+
+# Markdown rendering artifacts
+*.html
+*.pdf
+*.docx
+
+# Images generated from Markdown
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.pdf
+
+# Compiled Markdown files
+*.mdc
+*.md.html
+
+# Visual Studio Code settings
+.vscode/

@@ -1,0 +1,17 @@
+# Nginx logs
+logs/
+
+# Temporary files
+*.swp
+*~
+
+# .DS_Store files on macOS
+.DS_Store
+
+# Compiled binaries (if any)
+*.so
+*.dll
+*.out
+
+# .vscode directory if using Visual Studio Code
+.vscode/

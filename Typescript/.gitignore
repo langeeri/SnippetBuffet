@@ -1,0 +1,40 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# .DS_Store files on macOS
+.DS_Store
+
+# Compiled JavaScript (if applicable)
+*.js
+*.js.map
+
+# Compiled TypeScript (if applicable)
+*.ts
+*.d.ts
+*.js
+*.js.map
+
+# Editor specific files
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*~
+
+# Windows
+Thumbs.db

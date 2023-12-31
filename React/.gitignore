@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# Coverage reports
+coverage/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# .DS_Store files on macOS
+.DS_Store
+
+# Yarn lock file
+yarn.lock
+
+# IDE
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled files
+*.map
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# npm
+*.log
