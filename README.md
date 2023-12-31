@@ -1,4 +1,4 @@
-# Code Snippets Repository
+# Code Snippet Buffet
 This repo is a collection of code snippets I found interesting. Feel free to use them for your own projects.
 
 ## Structure
