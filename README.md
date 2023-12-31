@@ -2,7 +2,7 @@
 This repo is a collection of handy code snippets I've found useful for tackling larger projects. Feel free to use them in your own work.
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=django,py,js,ts,jquery,angular,react,tailwind,md,linux,nginx,bash" />
+    <img src="https://skillicons.dev/icons?i=django,py,linux,nginx,bash,js,ts,jquery,angular,react,tailwind,md" />
   </a>
 </p>
 
