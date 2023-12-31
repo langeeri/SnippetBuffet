@@ -10,7 +10,7 @@ Contributions are welcome! If you have code snippets you'd like to share, please
 ## License
 This repository is licensed under the MIT License, allowing you to use and modify the code snippets freely. Please review the license for more details.
 
-# How to Use
+## How to Use
 Each code snippet is contained in a single file within its respective folder. To use a snippet, simply navigate to the relevant folder and explore the available code examples. To use all snippets, feel free to clone the repo to your local machine. 
 
   ```bash
