@@ -7,7 +7,7 @@
 </p>
 
 ## Structure
-The repo is organized by programming languages, with individual folders containing snippets categorized by themes, libraries, or specific use cases. The structure promotes easy navigation and allows you to quickly find relevant code examples.
+The repo is organized by programming languages, with individual folders containing snippets categorized by themes, libraries, or specific use cases. 
 
 ## Contributing
 Contributions are welcome! If you have code snippets you'd like to share, please consider contributing to this repo. Follow the guidelines in CONTRIBUTING.md for details on how to submit your snippets.
