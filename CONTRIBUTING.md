@@ -18,7 +18,7 @@ git checkout -b feature/new-snippet
 ```
 ### 4. Add Your Snippet 
 Place your snippet in the relevant language or theme folder.
-### 5.Commit Your Changes
+### 5. Commit Your Changes
 Commit your changes with a descriptive message.
 ```bash
 git add .
