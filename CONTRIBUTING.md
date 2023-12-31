@@ -1,6 +1,6 @@
-# Contributing to Snippet Buffet
+<h1 align="center"> Contributing to Snippet Buffet </h1>
 
-👋 Welcome to Snippet Buffet! Here are a few guidelines to help you get started:
+<p  align="center"> 👋 Welcome to Snippet Buffet! Here are a few guidelines to help you get started 👋 </p>
 
 ## How to Contribute
 
@@ -41,5 +41,5 @@ Descriptive Snippets:
 - [x] Respect Licenses: Ensure that your snippet complies with the repository's MIT License.
 - [x] One Snippet, One PR: Submit separate pull requests for each snippet to keep things organized.
  --- 
-## That's it! Thanks for contributing to Snippet Buffet. 🚀
+<h2 align="center"> That's it! Thanks for contributing to Snippet Buffet. 🚀 </h1>
 
