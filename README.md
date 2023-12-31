@@ -22,6 +22,8 @@ Each code snippet is contained in a single file within its respective folder. To
   git clone https://github.com/langeeri/SnippetBuffet.git
 ```
 
+--- 
+
 ## Feedback
 If you find a bug, have a question, or want to suggest improvements, please open an issue. 
 
