@@ -11,12 +11,12 @@ Clone the repository to your local machine using git clone
 ```bash
 git clone https://github.com/your-username/SnippetBuffet.git
 ```
-### 3.Create a Branch 
+### 3. Create a Branch 
 Create a new branch for your changes.
 ```bash
 git checkout -b feature/new-snippet
 ```
-### 4.Add Your Snippet 
+### 4. Add Your Snippet 
 Place your snippet in the relevant language or theme folder.
 ### 5.Commit Your Changes
 Commit your changes with a descriptive message.
@@ -24,12 +24,12 @@ Commit your changes with a descriptive message.
 git add .
 git commit -m "Add awesome new Python snippet"
 ```
-### 6.Push Your Changes
+### 6. Push Your Changes
 Push your changes to your forked repository.
 ```bash
 git push origin feature/new-snippet
 ```
-### 7.Create a Pull Request
+### 7. Create a Pull Request
 Go to the original repository and click on "New Pull Request."
 Describe your changes and submit the pull request.
 
