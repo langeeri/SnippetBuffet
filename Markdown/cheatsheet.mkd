@@ -1,0 +1,98 @@
+# Markdown Cheatsheet
+
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#GitHub-flavored-markdown
+https://www.markdownguide.org/extended-syntax/
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+## Headers
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+## Emphasis
+
+*italic* or _italic_
+**bold** or __bold__
+***bold and italic*** or ___bold and italic___
+
+## Lists
+
+### Ordered List
+
+1. Item 1
+2. Item 2
+   1. Subitem 2.1
+   2. Subitem 2.2
+3. Item 3
+
+### Unordered List
+
+- Item 1
+- Item 2
+   - Subitem 2.1
+   - Subitem 2.2
+- Item 3
+
+## Links
+
+[Link Text](https://www.example.com)
+
+## Images
+
+![Alt Text](image-url.jpg)
+
+## Blockquotes
+
+> This is a blockquote.
+> It can span multiple lines.
+
+## Table
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+
+## To Do
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+## Code
+
+### Inline Code
+
+`inline code`
+
+
+### Code Blocks
+
+```python
+def example_function():
+    print("Hello, Markdown!")
+```
+
+
+
