@@ -57,9 +57,10 @@ class RingBuffer:
 
     def enBuffer(self, value: int) -> None:
         """
-        Adds a value to the end of the buffer.
+        Enqueues a value at the tail of the buffer.
 
-        If the buffer is full, it removes the oldest element before adding the new one.
+        If the buffer is full, it first adjusts the head to make room by virtually removing 
+        the oldest element, effectively overwriting it with the new value.
 
         Parameters
         ----------
@@ -76,7 +77,10 @@ class RingBuffer:
 
     def deBuffer(self) -> None:
         """
-        Removes the oldest element from the buffer.
+        Advances the head, thereby virtually removing the oldest element from the buffer.
+
+        This does not physically remove the element from the internal list but makes it 
+        available to be overwritten by future enqueues.
 
         Raises
         ------
@@ -92,7 +96,7 @@ class RingBuffer:
 
     def front(self) -> int:
         """
-        Returns the value at the front of the buffer.
+        Returns the value at the front (head) of the buffer.
 
         Raises
         ------
@@ -111,7 +115,7 @@ class RingBuffer:
 
     def rear(self) -> int:
         """
-        Returns the value at the rear of the buffer.
+        Returns the value at the rear (tail - 1) of the buffer.
 
         Raises
         ------
