@@ -124,8 +124,8 @@ def run_server(xml_server_config: Dict[str, int]):
 
     """
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
-    
     xml_server = HttpXmlServer(**xml_server_config)
+    
     try:
         xml_server.start_server()
     except KeyboardInterrupt:
