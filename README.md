@@ -1,5 +1,5 @@
-# Code Snippet Buffet
-This repo is a collection of handy code snippets I've found useful for tackling larger projects. Feel free to use them in your own work.
+<h1 align="center"> Code Snippet Buffet </h1>
+<p align="center"> This repo is a collection of handy code snippets and cheatsheets I've found useful for tackling larger projects. Feel free to use them too. </p>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=django,py,linux,nginx,bash,js,ts,jquery,angular,react,tailwind,md" />
@@ -7,7 +7,7 @@ This repo is a collection of handy code snippets I've found useful for tackling 
 </p>
 
 ## Structure
-The repo is organized by programming languages, with individual folders containing snippets categorized by themes, libraries, or specific use cases. The structure promotes easy navigation and allows you to quickly find relevant code examples.
+The repo is organized by programming languages, with individual folders containing snippets categorized by themes, libraries, or specific use cases. 
 
 ## Contributing
 Contributions are welcome! If you have code snippets you'd like to share, please consider contributing to this repo. Follow the guidelines in CONTRIBUTING.md for details on how to submit your snippets.
@@ -25,6 +25,10 @@ Each code snippet is contained in a single file within its respective folder. To
 ## Feedback
 If you find a bug, have a question, or want to suggest improvements, please open an issue. 
 
-----
-Happy coding! 🚀
+--- 
+
+<h1 align="center"> Happy coding! 🔥 </h1>   
+
+
+
 

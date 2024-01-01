@@ -1,6 +1,6 @@
-# Contributing to Snippet Buffet
+<h1 align="center"> Contributing to Snippet Buffet </h1>
 
-👋 Welcome to Snippet Buffet! Here are a few guidelines to help you get started:
+<p  align="center"> 👋 Welcome to Snippet Buffet! Here are a few guidelines to help you get started 👋 </p>
 
 ## How to Contribute
 
@@ -34,12 +34,11 @@ Go to the original repository and click on "New Pull Request."
 Describe your changes and submit the pull request.
 
 ## Guidelines
-Descriptive Snippets:
 
-- [x] Ensure your snippet is well-commented and includes a brief description.
+- [x] Descriptive Snippets: Ensure your snippet is well-commented and includes a brief description.
 - [x] Consistent Naming: Follow the existing naming conventions for files and folders.
 - [x] Respect Licenses: Ensure that your snippet complies with the repository's MIT License.
 - [x] One Snippet, One PR: Submit separate pull requests for each snippet to keep things organized.
  --- 
-## That's it! Thanks for contributing to Snippet Buffet. 🚀
+<h2 align="center"> That's it! Thanks for contributing to Snippet Buffet. 🚀 </h1>
 
