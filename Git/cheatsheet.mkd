@@ -1,88 +1,89 @@
 
 # Git config
 
-## Set the global Git user name
+### Set the global Git user name
 `git config --global user.name 'username'`
 
-# Set the global Git user email
+### Set the global Git user email
 `git config --global user.email email@email.com`
 
-# Enable colored output in Git
+### Enable colored output in Git
 `git config --global color.ui true`
 
-# List global Git configurations
+### List global Git configurations
 `git config --global --list`
 
 
 # Git repo init
 
-# Initialize a new Git repository
+### Initialize a new Git repository
 `git init`
 
-# Display information about the repository status
+### Display information about the repository status
 `git status`
 
-# Start tracking changes in a specific file
+### Start tracking changes in a specific file
 `git add file.txt`
 
-# Commit changes to create a new revision
+### Commit changes to create a new revision
 `git commit`
 
-# Show everything in the last revision
+### Show everything in the last revision
 `git show`
 
-# Show changes
+### Show changes
 `git diff`
 
-# Display commit history
+### Display commit history
 `git log`
 
-# Get help for the log command
+### Get help for the log command
 `git help log`
 
-# Show details of a specific revision (replace 5gg0b with the first few characters of the revision)
+### Show details of a specific revision (replace 5gg0b with the first few characters of the revision)
 `git show 5gg0b`
 
 # Git branching
-# List all branches in the repository
+
+### List all branches in the repository
 `git branch`
 
-# Create a new branch
+### Create a new branch
 `git branch new_branch_name`
 
-# Switch to a newly created branch
+### Switch to a newly created branch
 `git checkout new_branch_name`
 
-# Merge a branch into the current branch (e.g., master)
+### Merge a branch into the current branch (e.g., master)
 `git merge new_branch_name`
 
-# Delete a branch
+### Delete a branch
 `git branch --delete new_branch_name`
 
-# Check remaining branches after deletion
+### Check remaining branches after deletion
 `git branch`
 
 # Git and github
 
-# Clone a repository from GitHub
+### Clone a repository from GitHub
 `git clone URL`
 
-# Start tracking changes in a specific file
+### Start tracking changes in a specific file
 `git add file.txt`
 
-# Unstage changes (reverse of git add)
+### Unstage changes (reverse of git add)
 `git restore --staged *`
 
-# Commit changes with a commit message
+### Commit changes with a commit message
 `git commit -m 'Your commit message'`
 
-# Push changes to GitHub
+### Push changes to GitHub
 `git push`
 
-# Pull changes from GitHub to local repository
+### Pull changes from GitHub to local repository
 `git pull origin`
 
-# Pull changes from a specific branch on GitHub to the local repository
+### Pull changes from a specific branch on GitHub to the local repository
 `git pull origin branch_name`
 
 # Git release Tag
