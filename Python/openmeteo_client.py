@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
+OpenMeteo Client 
+
 This module provides functionality to fetch and save weather data from the Open Meteo API.
 It includes functions to request weather data based on specified geographical coordinates
 and time frame, and to save this data in a JSON format.
