@@ -115,7 +115,7 @@ class HttpXmlServer:
             self.http_server.server_close()
             logging.info("Server stopped.")
 
-def run_server(xml_server_config: Dict[str, int]):
+def run_server(xml_server_config: Dict[str, int]) -> None:
     """
     Starts the HTTP XML server based on provided configuration.
 
@@ -125,7 +125,6 @@ def run_server(xml_server_config: Dict[str, int]):
         Configuration for the XML server, including 'host' and 'port'.
 
     """
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
     xml_server = HttpXmlServer(**xml_server_config)
     
     try:
@@ -138,6 +137,7 @@ def run_server(xml_server_config: Dict[str, int]):
         logging.shutdown()
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
     xml_server_config = {'host': 'localhost', 'port': 5000}
     run_server(xml_server_config)
 

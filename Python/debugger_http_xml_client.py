@@ -23,7 +23,7 @@ test_xml_server(host: str, port: int, path: str)
 
 import http.client
 
-def test_xml_server(host: str, port: int, path: str):
+def test_xml_server(host: str, port: int, path: str) -> None:
     """
     Sends a GET request to the specified XML server and prints the response.
 
