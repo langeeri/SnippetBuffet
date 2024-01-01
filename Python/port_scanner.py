@@ -3,6 +3,7 @@
 
 """
 Port Scanner
+
 This script is intended for educational purposes only and was created as part of a CyberSec lab. 
 Please use it responsibly.
 
