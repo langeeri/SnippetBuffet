@@ -16,13 +16,13 @@ Functions:
 - scan_port(ipaddress: str, port: int): Scans a specific port on the given IP address and reports its status.
 
 Usage:
-Run the script and enter the targets and the number of ports to scan when prompted. The script will display the 
-status of each port (open or closed) for each target IP address.
+Run the script and enter the targets and the number of ports to scan when prompted. The script will display 
+the status of each port (open or closed) for each target IP address.
 
 Note:
 - The script requires the 'socket' and 'termcolor' modules.
-- Port scanning can be illegal or considered hostile activity on certain networks. Ensure you have authorization
-  before scanning ports on any network.
+- Port scanning can be illegal or considered hostile activity on certain networks. Ensure you have 
+  authorization before scanning ports on any network.
 
 Example:
     $ python port_scanner.py
