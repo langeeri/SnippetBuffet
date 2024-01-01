@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
+Debugger HTTP XML server
+
 A simple HTTP server for serving XML data. This script creates an HTTP server
 that responds to GET requests with XML content. Intended just for quick XML client 
 testing.
