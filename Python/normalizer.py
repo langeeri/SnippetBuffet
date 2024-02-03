@@ -38,11 +38,12 @@ SOURCE_NAME: str = 'tc_18_1'
 ENCODING: str = 'ISO-8859-1'
 DELIMITER: str = ';'
 INTERVAL: str = '10S'
+TIMESTAMP_COLUMN: str = 'CAS'
 
 
 def interpolate_timestamp(name: str) -> pd.DataFrame:
     """
-    Interpolate timestamps in CSV data.
+    Interpolate timestamps in CSV data to achieve a uniform 10-second interval.
 
     Parameters
     ----------
@@ -52,17 +53,28 @@ def interpolate_timestamp(name: str) -> pd.DataFrame:
     Returns
     -------
     pandas.DataFrame
-        Interpolated DataFrame with timestamps.
+        Transformed DataFrame with a uniform 10-second interval.
     """
     try:
         # Read the CSV file
-        df = pd.read_csv(f'{name}.csv', delimiter=DELIMITER, encoding=ENCODING)
+        df = pd.read_csv(f'{name}.csv', delimiter=DELIMITER, encoding=ENCODING, skiprows=1)
 
-        # Check if heat pump is running (TC1 ot.komp. > 0), if not, interpolate timestamps
+        # Convert 'CAS' column to datetime type
+        df[TIMESTAMP_COLUMN] = pd.to_datetime(df[TIMESTAMP_COLUMN])
+
+        # Extract the time in HH:MM:SS format
+        df['Time'] = df[TIMESTAMP_COLUMN].dt.strftime('%H:%M:%S')
+
+        # Set the 'CAS' column as the index
+        df.set_index(TIMESTAMP_COLUMN, inplace=True)
+
+        # Check if heat pump is running (TC1 ot.komp. > 0)
         if (df['TC1 ot.komp.'] <= 0).all():
-            df_interpolated = df.resample(INTERVAL).interpolate()
+            # Linear interpolation for timestamps
+            df_interpolated = df.resample(INTERVAL).interpolate(method='linear')
         else:
-            df_interpolated = df.copy()
+            # Copy values to achieve a uniform 10-second interval
+            df_interpolated = df.resample(INTERVAL).ffill()
 
         return df_interpolated
 
@@ -76,11 +88,10 @@ if __name__ == "__main__":
     try:
         interpolated_df = interpolate_timestamp(SOURCE_NAME)
         # Save the modified data to a new CSV file with the correct extension
-        interpolated_df.to_csv(f'{SOURCE_NAME}_interpolated.csv', index=False, sep=DELIMITER)
+        interpolated_df.to_csv(f'{SOURCE_NAME}_interpolated.csv', index=True, sep=DELIMITER)
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
-
 
 
 
